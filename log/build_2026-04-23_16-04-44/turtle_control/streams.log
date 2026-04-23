@@ -1,0 +1,37 @@
+[1.041s] Invoking command in '/home/ny/ros2_ws/src/turtle_control': PYTHONPATH=/home/ny/ros2_ws/build/turtle_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ny/ros2_ws/install/turtle_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_control build --build-base /home/ny/ros2_ws/build/turtle_control/build install --record /home/ny/ros2_ws/build/turtle_control/install.log --single-version-externally-managed install_data
+[1.432s] running egg_info
+[1.433s] creating ../../build/turtle_control/turtle_control.egg-info
+[1.433s] writing ../../build/turtle_control/turtle_control.egg-info/PKG-INFO
+[1.433s] writing dependency_links to ../../build/turtle_control/turtle_control.egg-info/dependency_links.txt
+[1.433s] writing entry points to ../../build/turtle_control/turtle_control.egg-info/entry_points.txt
+[1.435s] writing requirements to ../../build/turtle_control/turtle_control.egg-info/requires.txt
+[1.435s] writing top-level names to ../../build/turtle_control/turtle_control.egg-info/top_level.txt
+[1.435s] writing manifest file '../../build/turtle_control/turtle_control.egg-info/SOURCES.txt'
+[1.436s] reading manifest file '../../build/turtle_control/turtle_control.egg-info/SOURCES.txt'
+[1.438s] writing manifest file '../../build/turtle_control/turtle_control.egg-info/SOURCES.txt'
+[1.438s] running build
+[1.438s] running build_py
+[1.438s] creating /home/ny/ros2_ws/build/turtle_control/build
+[1.438s] creating /home/ny/ros2_ws/build/turtle_control/build/lib
+[1.439s] creating /home/ny/ros2_ws/build/turtle_control/build/lib/turtle_control
+[1.439s] copying turtle_control/turtle_controller_node.py -> /home/ny/ros2_ws/build/turtle_control/build/lib/turtle_control
+[1.440s] copying turtle_control/__init__.py -> /home/ny/ros2_ws/build/turtle_control/build/lib/turtle_control
+[1.440s] running install
+[1.440s] running install_lib
+[1.441s] creating /home/ny/ros2_ws/install/turtle_control/lib/python3.10/site-packages/turtle_control
+[1.442s] copying /home/ny/ros2_ws/build/turtle_control/build/lib/turtle_control/turtle_controller_node.py -> /home/ny/ros2_ws/install/turtle_control/lib/python3.10/site-packages/turtle_control
+[1.442s] copying /home/ny/ros2_ws/build/turtle_control/build/lib/turtle_control/__init__.py -> /home/ny/ros2_ws/install/turtle_control/lib/python3.10/site-packages/turtle_control
+[1.443s] byte-compiling /home/ny/ros2_ws/install/turtle_control/lib/python3.10/site-packages/turtle_control/turtle_controller_node.py to turtle_controller_node.cpython-310.pyc
+[1.444s] byte-compiling /home/ny/ros2_ws/install/turtle_control/lib/python3.10/site-packages/turtle_control/__init__.py to __init__.cpython-310.pyc
+[1.444s] running install_data
+[1.445s] creating /home/ny/ros2_ws/install/turtle_control/share/ament_index
+[1.446s] creating /home/ny/ros2_ws/install/turtle_control/share/ament_index/resource_index
+[1.446s] creating /home/ny/ros2_ws/install/turtle_control/share/ament_index/resource_index/packages
+[1.446s] copying resource/turtle_control -> /home/ny/ros2_ws/install/turtle_control/share/ament_index/resource_index/packages
+[1.446s] copying package.xml -> /home/ny/ros2_ws/install/turtle_control/share/turtle_control
+[1.446s] running install_egg_info
+[1.449s] Copying ../../build/turtle_control/turtle_control.egg-info to /home/ny/ros2_ws/install/turtle_control/lib/python3.10/site-packages/turtle_control-0.0.0-py3.10.egg-info
+[1.451s] running install_scripts
+[1.486s] Installing turtle_controller script to /home/ny/ros2_ws/install/turtle_control/lib/turtle_control
+[1.486s] writing list of installed files to '/home/ny/ros2_ws/build/turtle_control/install.log'
+[1.523s] Invoked command in '/home/ny/ros2_ws/src/turtle_control' returned '0': PYTHONPATH=/home/ny/ros2_ws/build/turtle_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ny/ros2_ws/install/turtle_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_control build --build-base /home/ny/ros2_ws/build/turtle_control/build install --record /home/ny/ros2_ws/build/turtle_control/install.log --single-version-externally-managed install_data
