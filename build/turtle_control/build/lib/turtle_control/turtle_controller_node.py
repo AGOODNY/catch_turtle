@@ -1,4 +1,4 @@
-import rclpy
+import rclpy 
 from rclpy.node import Node
 from geometry_msgs.msg import Twist, Point
 from turtlesim.msg import Pose
@@ -11,11 +11,11 @@ class TurtleController(Node):
         # 当前位姿
         self.pose = None
 
-        # 目标点（默认值：没有C时使用）
-        self.target_x = 5.0
-        self.target_y = 5.0
+        # ❗ 不再设置默认目标（必须由 C 提供）
+        self.target_x = None
+        self.target_y = None
 
-        # 是否接收到外部目标（来自C）
+        # 是否接收到外部目标
         self.has_external_target = False
 
         # 参数（可调）
@@ -32,10 +32,10 @@ class TurtleController(Node):
         # 订阅自身位置
         self.create_subscription(Pose, '/turtle1/pose', self.pose_callback, 10)
 
-        # 可选：订阅C提供的最近目标
+        # ✅ 订阅 C 提供的目标
         self.create_subscription(Point, '/nearest_turtle', self.target_callback, 10)
 
-        # 控制发布
+        # 发布控制
         self.cmd_pub = self.create_publisher(Twist, '/turtle1/cmd_vel', 10)
 
         # 控制循环
@@ -47,17 +47,17 @@ class TurtleController(Node):
         self.pose = msg
 
     def target_callback(self, msg: Point):
-        # 来自C的目标
+        # 接收来自 C 的目标
         self.target_x = msg.x
         self.target_y = msg.y
         self.has_external_target = True
 
     def normalize_angle(self, angle):
-        # 归一化到 [-pi, pi]
         return math.atan2(math.sin(angle), math.cos(angle))
 
     def control_loop(self):
-        if self.pose is None:
+        # ❗ 没有位姿 or 没有目标 → 不动
+        if self.pose is None or not self.has_external_target:
             return
 
         dx = self.target_x - self.pose.x
@@ -69,18 +69,18 @@ class TurtleController(Node):
 
         twist = Twist()
 
-        # 控制策略
+        # 控制逻辑
         if distance < self.distance_tolerance:
-            # 到达目标：停止
+            # 到达目标（不再主动停止，由 C 决定下一目标）
             twist.linear.x = 0.0
             twist.angular.z = 0.0
         else:
             if abs(angle_diff) > self.angle_tolerance:
-                # 先旋转
+                # 先转向
                 twist.angular.z = self.angular_speed * angle_diff
                 twist.linear.x = 0.0
             else:
-                # 再前进（带简单减速）
+                # 再前进（带减速）
                 twist.linear.x = min(self.linear_speed, distance)
                 twist.angular.z = 0.0
 
