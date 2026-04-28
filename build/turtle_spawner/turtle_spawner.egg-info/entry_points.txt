@@ -1,0 +1,2 @@
+[console_scripts]
+spawner = turtle_spawner.turtle_spawner_node:main

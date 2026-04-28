@@ -1,0 +1,141 @@
+[0.332s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'turtle_spawner', '--symlink-install']
+[0.333s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['turtle_spawner'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7c620b549910>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c620c392e70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c620c392e70>>)
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.518s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yara/Desktop/catch_turtle'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extension 'ignore_ament_install'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extensions ['colcon_pkg']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extension 'colcon_pkg'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extensions ['colcon_meta']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extension 'colcon_meta'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extensions ['ros']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extension 'ros'
+[0.635s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_control' with type 'ros.ament_python' and name 'turtle_control'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_spawner) by extensions ['ignore', 'ignore_ament_install']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_spawner) by extension 'ignore'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_spawner) by extension 'ignore_ament_install'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_spawner) by extensions ['colcon_pkg']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_spawner) by extension 'colcon_pkg'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_spawner) by extensions ['colcon_meta']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_spawner) by extension 'colcon_meta'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_spawner) by extensions ['ros']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_spawner) by extension 'ros'
+[0.639s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_spawner' with type 'ros.ament_python' and name 'turtle_spawner'
+[0.639s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.640s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.640s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.640s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.640s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.682s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtle_control' in 'src/turtle_control'
+[0.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.693s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 342 installed packages in /opt/ros/jazzy
+[0.696s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'turtle_spawner' build argument 'cmake_args' from command line to 'None'
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'turtle_spawner' build argument 'cmake_target' from command line to 'None'
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'turtle_spawner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'turtle_spawner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'turtle_spawner' build argument 'cmake_clean_first' from command line to 'False'
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'turtle_spawner' build argument 'cmake_force_configure' from command line to 'False'
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'turtle_spawner' build argument 'ament_cmake_args' from command line to 'None'
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'turtle_spawner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'turtle_spawner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.894s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_spawner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yara/Desktop/catch_turtle/build/turtle_spawner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yara/Desktop/catch_turtle/install/turtle_spawner', 'merge_install': False, 'path': '/home/yara/Desktop/catch_turtle/src/turtle_spawner', 'symlink_install': True, 'test_result_base': None}
+[0.894s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.903s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.903s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yara/Desktop/catch_turtle/src/turtle_spawner' with build type 'ament_python'
+[0.903s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_spawner', 'ament_prefix_path')
+[0.907s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yara/Desktop/catch_turtle/install/turtle_spawner/share/turtle_spawner/hook/ament_prefix_path.ps1'
+[0.911s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yara/Desktop/catch_turtle/install/turtle_spawner/share/turtle_spawner/hook/ament_prefix_path.dsv'
+[0.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yara/Desktop/catch_turtle/install/turtle_spawner/share/turtle_spawner/hook/ament_prefix_path.sh'
+[0.914s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.915s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.883s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yara/Desktop/catch_turtle/src/turtle_spawner'
+[1.884s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.884s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yara/Desktop/catch_turtle/build/turtle_spawner': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yara/Desktop/catch_turtle/build/turtle_spawner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yara/Desktop/catch_turtle/install/turtle_spawner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yara/Desktop/catch_turtle/build/turtle_spawner/build --no-deps symlink_data
+[6.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_spawner', 'pythonpath_develop')
+[6.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yara/Desktop/catch_turtle/build/turtle_spawner' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yara/Desktop/catch_turtle/build/turtle_spawner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yara/Desktop/catch_turtle/install/turtle_spawner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yara/Desktop/catch_turtle/build/turtle_spawner/build --no-deps symlink_data
+[6.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yara/Desktop/catch_turtle/build/turtle_spawner/share/turtle_spawner/hook/pythonpath_develop.ps1'
+[6.127s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yara/Desktop/catch_turtle/build/turtle_spawner/share/turtle_spawner/hook/pythonpath_develop.dsv'
+[6.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yara/Desktop/catch_turtle/build/turtle_spawner/share/turtle_spawner/hook/pythonpath_develop.sh'
+[6.136s] Level 1:colcon.colcon_core.environment:checking '/home/yara/Desktop/catch_turtle/install/turtle_spawner' for CMake module files
+[6.138s] Level 1:colcon.colcon_core.environment:checking '/home/yara/Desktop/catch_turtle/install/turtle_spawner' for CMake config files
+[6.139s] Level 1:colcon.colcon_core.environment:checking '/home/yara/Desktop/catch_turtle/install/turtle_spawner/lib'
+[6.140s] Level 1:colcon.colcon_core.environment:checking '/home/yara/Desktop/catch_turtle/install/turtle_spawner/bin'
+[6.141s] Level 1:colcon.colcon_core.environment:checking '/home/yara/Desktop/catch_turtle/install/turtle_spawner/lib/pkgconfig/turtle_spawner.pc'
+[6.141s] Level 1:colcon.colcon_core.environment:checking '/home/yara/Desktop/catch_turtle/install/turtle_spawner/lib/python3.12/site-packages'
+[6.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_spawner', 'pythonpath')
+[6.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yara/Desktop/catch_turtle/install/turtle_spawner/share/turtle_spawner/hook/pythonpath.ps1'
+[6.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yara/Desktop/catch_turtle/install/turtle_spawner/share/turtle_spawner/hook/pythonpath.dsv'
+[6.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yara/Desktop/catch_turtle/install/turtle_spawner/share/turtle_spawner/hook/pythonpath.sh'
+[6.146s] Level 1:colcon.colcon_core.environment:checking '/home/yara/Desktop/catch_turtle/install/turtle_spawner/bin'
+[6.146s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_spawner)
+[6.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/yara/Desktop/catch_turtle/install/turtle_spawner/share/turtle_spawner/package.ps1'
+[6.149s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yara/Desktop/catch_turtle/install/turtle_spawner/share/turtle_spawner/package.dsv'
+[6.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/yara/Desktop/catch_turtle/install/turtle_spawner/share/turtle_spawner/package.sh'
+[6.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/yara/Desktop/catch_turtle/install/turtle_spawner/share/turtle_spawner/package.bash'
+[6.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/yara/Desktop/catch_turtle/install/turtle_spawner/share/turtle_spawner/package.zsh'
+[6.156s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yara/Desktop/catch_turtle/install/turtle_spawner/share/colcon-core/packages/turtle_spawner)
+[6.157s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.158s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.158s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.158s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.186s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.187s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.187s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.282s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.283s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yara/Desktop/catch_turtle/install/local_setup.ps1'
+[6.286s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yara/Desktop/catch_turtle/install/_local_setup_util_ps1.py'
+[6.296s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yara/Desktop/catch_turtle/install/setup.ps1'
+[6.307s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yara/Desktop/catch_turtle/install/local_setup.sh'
+[6.309s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yara/Desktop/catch_turtle/install/_local_setup_util_sh.py'
+[6.312s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yara/Desktop/catch_turtle/install/setup.sh'
+[6.319s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yara/Desktop/catch_turtle/install/local_setup.bash'
+[6.320s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yara/Desktop/catch_turtle/install/setup.bash'
+[6.322s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yara/Desktop/catch_turtle/install/local_setup.zsh'
+[6.328s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yara/Desktop/catch_turtle/install/setup.zsh'

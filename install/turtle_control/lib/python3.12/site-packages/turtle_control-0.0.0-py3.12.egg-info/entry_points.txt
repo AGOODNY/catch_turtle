@@ -1,2 +1,0 @@
-[console_scripts]
-turtle_controller = turtle_control.turtle_controller_node:main

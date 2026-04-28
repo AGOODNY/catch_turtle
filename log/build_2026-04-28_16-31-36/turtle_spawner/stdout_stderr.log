@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating turtle_spawner.egg-info
+writing turtle_spawner.egg-info/PKG-INFO
+writing dependency_links to turtle_spawner.egg-info/dependency_links.txt
+writing entry points to turtle_spawner.egg-info/entry_points.txt
+writing requirements to turtle_spawner.egg-info/requires.txt
+writing top-level names to turtle_spawner.egg-info/top_level.txt
+writing manifest file 'turtle_spawner.egg-info/SOURCES.txt'
+reading manifest file 'turtle_spawner.egg-info/SOURCES.txt'
+writing manifest file 'turtle_spawner.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yara/Desktop/catch_turtle/install/turtle_spawner/lib/python3.12/site-packages/turtle-spawner.egg-link (link to .)
+Installing spawner script to /home/yara/Desktop/catch_turtle/install/turtle_spawner/lib/turtle_spawner
+
+Installed /home/yara/Desktop/catch_turtle/build/turtle_spawner
+running symlink_data
+creating /home/yara/Desktop/catch_turtle/install/turtle_spawner/share/ament_index
+creating /home/yara/Desktop/catch_turtle/install/turtle_spawner/share/ament_index/resource_index
+creating /home/yara/Desktop/catch_turtle/install/turtle_spawner/share/ament_index/resource_index/packages
+symbolically linking /home/yara/Desktop/catch_turtle/build/turtle_spawner/resource/turtle_spawner -> /home/yara/Desktop/catch_turtle/install/turtle_spawner/share/ament_index/resource_index/packages
+symbolically linking /home/yara/Desktop/catch_turtle/build/turtle_spawner/package.xml -> /home/yara/Desktop/catch_turtle/install/turtle_spawner/share/turtle_spawner
