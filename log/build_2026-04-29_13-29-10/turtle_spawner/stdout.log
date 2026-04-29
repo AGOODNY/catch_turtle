@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing turtle_spawner.egg-info/PKG-INFO
+writing dependency_links to turtle_spawner.egg-info/dependency_links.txt
+writing entry points to turtle_spawner.egg-info/entry_points.txt
+writing requirements to turtle_spawner.egg-info/requires.txt
+writing top-level names to turtle_spawner.egg-info/top_level.txt
+reading manifest file 'turtle_spawner.egg-info/SOURCES.txt'
+writing manifest file 'turtle_spawner.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ny/ros2_ws/install/turtle_spawner/lib/python3.10/site-packages/turtle-spawner.egg-link (link to .)
+Installing turtle_spawner_node script to /home/ny/ros2_ws/install/turtle_spawner/lib/turtle_spawner
+
+Installed /home/ny/ros2_ws/build/turtle_spawner
+running symlink_data
+symbolically linking /home/ny/ros2_ws/build/turtle_spawner/resource/turtle_spawner -> /home/ny/ros2_ws/install/turtle_spawner/share/ament_index/resource_index/packages
+symbolically linking /home/ny/ros2_ws/build/turtle_spawner/package.xml -> /home/ny/ros2_ws/install/turtle_spawner/share/turtle_spawner
+creating /home/ny/ros2_ws/install/turtle_spawner/share/turtle_spawner/launch

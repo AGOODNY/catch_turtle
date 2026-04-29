@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'target_selector_node = turtle_decision.target_selector_node:main',  # 添加这一行
         ],
     },
 )

@@ -9,8 +9,12 @@ setup.py
 ../../build/turtle_decision/turtle_decision.egg-info/top_level.txt
 ../../build/turtle_decision/turtle_decision.egg-info/zip-safe
 resource/turtle_decision
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
 turtle_decision/__init__.py
 turtle_decision/target_selector_node.py
+turtle_decision.egg-info/PKG-INFO
+turtle_decision.egg-info/SOURCES.txt
+turtle_decision.egg-info/dependency_links.txt
+turtle_decision.egg-info/entry_points.txt
+turtle_decision.egg-info/requires.txt
+turtle_decision.egg-info/top_level.txt
+turtle_decision.egg-info/zip-safe

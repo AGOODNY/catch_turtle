@@ -11,7 +11,7 @@ class TurtleController(Node):
         # 当前位姿
         self.pose = None
 
-        # ❗ 不再设置默认目标（必须由 C 提供）
+        # 不设置默认目标（必须由 C 提供）
         self.target_x = None
         self.target_y = None
 
@@ -32,7 +32,7 @@ class TurtleController(Node):
         # 订阅自身位置
         self.create_subscription(Pose, '/turtle1/pose', self.pose_callback, 10)
 
-        # ✅ 订阅 C 提供的目标
+        # 订阅 C 提供的目标
         self.create_subscription(Point, '/nearest_turtle', self.target_callback, 10)
 
         # 发布控制

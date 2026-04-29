@@ -23,8 +23,8 @@ setup(
         ],
     },
     entry_points={
-    'console_scripts': [
-        'turtle_controller = turtle_control.turtle_controller_node:main',
-    ],
-},
+        'console_scripts': [
+            'turtle_control_node = turtle_control.turtle_controller_node:main',
+        ],
+    },
 )

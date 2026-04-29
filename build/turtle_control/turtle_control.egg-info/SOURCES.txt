@@ -9,8 +9,12 @@ setup.py
 ../../build/turtle_control/turtle_control.egg-info/top_level.txt
 ../../build/turtle_control/turtle_control.egg-info/zip-safe
 resource/turtle_control
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
 turtle_control/__init__.py
 turtle_control/turtle_controller_node.py
+turtle_control.egg-info/PKG-INFO
+turtle_control.egg-info/SOURCES.txt
+turtle_control.egg-info/dependency_links.txt
+turtle_control.egg-info/entry_points.txt
+turtle_control.egg-info/requires.txt
+turtle_control.egg-info/top_level.txt
+turtle_control.egg-info/zip-safe
