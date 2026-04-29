@@ -16,10 +16,12 @@ class TargetSelectorNode(Node):
 
         self.target_pub = self.create_publisher(Point, '/nearest_turtle', 10)
 
-        # 新增：接收A的通知
         self.create_subscription(String, '/new_turtle', self.new_turtle_callback, 10)
 
         self.uncaught_poses = {}
+
+        # 捕捉阈值（可调）
+        self.catch_distance = 0.6
 
         self.timer = self.create_timer(0.1, self.control_callback)
 
@@ -62,6 +64,7 @@ class TargetSelectorNode(Node):
         if not valid_targets:
             return
 
+        # 找最近
         for name, pose in valid_targets.items():
             dx = pose.x - self.master_pose.x
             dy = pose.y - self.master_pose.y
@@ -74,6 +77,17 @@ class TargetSelectorNode(Node):
         if target_name is None:
             return
 
+        # 捕捉逻辑
+        if min_dist < self.catch_distance:
+            self.get_logger().info(f'Caught {target_name}')
+            self.uncaught_poses.pop(target_name)
+
+            # 留给 D 的接口（
+            # 可以在这里 publish /caught_turtle
+
+            return  # 本轮不再发布旧目标
+
+        # 正常发布目标
         target_pose = valid_targets[target_name]
 
         msg = Point()

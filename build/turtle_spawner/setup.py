@@ -1,1 +1,0 @@
-/home/ny/ros2_ws/src/turtle_spawner/setup.py
