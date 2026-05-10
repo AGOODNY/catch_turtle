@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/turtle_chain/turtle_chain.egg-info
+writing ../../build/turtle_chain/turtle_chain.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtle_chain/turtle_chain.egg-info/dependency_links.txt
+writing entry points to ../../build/turtle_chain/turtle_chain.egg-info/entry_points.txt
+writing requirements to ../../build/turtle_chain/turtle_chain.egg-info/requires.txt
+writing top-level names to ../../build/turtle_chain/turtle_chain.egg-info/top_level.txt
+writing manifest file '../../build/turtle_chain/turtle_chain.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtle_chain/turtle_chain.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtle_chain/turtle_chain.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ny/ros2_ws/build/turtle_chain/build
+creating /home/ny/ros2_ws/build/turtle_chain/build/lib
+creating /home/ny/ros2_ws/build/turtle_chain/build/lib/turtle_chain
+copying turtle_chain/chain_manager.py -> /home/ny/ros2_ws/build/turtle_chain/build/lib/turtle_chain
+copying turtle_chain/follower.py -> /home/ny/ros2_ws/build/turtle_chain/build/lib/turtle_chain
+copying turtle_chain/__init__.py -> /home/ny/ros2_ws/build/turtle_chain/build/lib/turtle_chain
+running install
+running install_lib
+creating /home/ny/ros2_ws/install/turtle_chain/lib/python3.10/site-packages/turtle_chain
+copying /home/ny/ros2_ws/build/turtle_chain/build/lib/turtle_chain/chain_manager.py -> /home/ny/ros2_ws/install/turtle_chain/lib/python3.10/site-packages/turtle_chain
+copying /home/ny/ros2_ws/build/turtle_chain/build/lib/turtle_chain/follower.py -> /home/ny/ros2_ws/install/turtle_chain/lib/python3.10/site-packages/turtle_chain
+copying /home/ny/ros2_ws/build/turtle_chain/build/lib/turtle_chain/__init__.py -> /home/ny/ros2_ws/install/turtle_chain/lib/python3.10/site-packages/turtle_chain
+byte-compiling /home/ny/ros2_ws/install/turtle_chain/lib/python3.10/site-packages/turtle_chain/chain_manager.py to chain_manager.cpython-310.pyc
+byte-compiling /home/ny/ros2_ws/install/turtle_chain/lib/python3.10/site-packages/turtle_chain/follower.py to follower.cpython-310.pyc
+byte-compiling /home/ny/ros2_ws/install/turtle_chain/lib/python3.10/site-packages/turtle_chain/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ny/ros2_ws/install/turtle_chain/share/ament_index
+creating /home/ny/ros2_ws/install/turtle_chain/share/ament_index/resource_index
+creating /home/ny/ros2_ws/install/turtle_chain/share/ament_index/resource_index/packages
+copying resource/turtle_chain -> /home/ny/ros2_ws/install/turtle_chain/share/ament_index/resource_index/packages
+copying package.xml -> /home/ny/ros2_ws/install/turtle_chain/share/turtle_chain
+running install_egg_info
+Copying ../../build/turtle_chain/turtle_chain.egg-info to /home/ny/ros2_ws/install/turtle_chain/lib/python3.10/site-packages/turtle_chain-0.0.1-py3.10.egg-info
+running install_scripts
+Installing chain_manager script to /home/ny/ros2_ws/install/turtle_chain/lib/turtle_chain
+writing list of installed files to '/home/ny/ros2_ws/build/turtle_chain/install.log'

@@ -1,0 +1,21 @@
+[2.041s] Invoking command in '/home/ny/ros2_ws/src/turtle_spawner': PYTHONPATH=/home/ny/ros2_ws/build/turtle_spawner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ny/ros2_ws/install/turtle_spawner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_spawner build --build-base /home/ny/ros2_ws/build/turtle_spawner/build install --record /home/ny/ros2_ws/build/turtle_spawner/install.log --single-version-externally-managed install_data
+[2.421s] running egg_info
+[2.422s] writing ../../build/turtle_spawner/turtle_spawner.egg-info/PKG-INFO
+[2.424s] writing dependency_links to ../../build/turtle_spawner/turtle_spawner.egg-info/dependency_links.txt
+[2.425s] writing entry points to ../../build/turtle_spawner/turtle_spawner.egg-info/entry_points.txt
+[2.425s] writing requirements to ../../build/turtle_spawner/turtle_spawner.egg-info/requires.txt
+[2.429s] writing top-level names to ../../build/turtle_spawner/turtle_spawner.egg-info/top_level.txt
+[2.430s] reading manifest file '../../build/turtle_spawner/turtle_spawner.egg-info/SOURCES.txt'
+[2.432s] writing manifest file '../../build/turtle_spawner/turtle_spawner.egg-info/SOURCES.txt'
+[2.433s] running build
+[2.433s] running build_py
+[2.435s] running install
+[2.436s] running install_lib
+[2.442s] running install_data
+[2.443s] running install_egg_info
+[2.450s] removing '/home/ny/ros2_ws/install/turtle_spawner/lib/python3.10/site-packages/turtle_spawner-0.0.0-py3.10.egg-info' (and everything under it)
+[2.460s] Copying ../../build/turtle_spawner/turtle_spawner.egg-info to /home/ny/ros2_ws/install/turtle_spawner/lib/python3.10/site-packages/turtle_spawner-0.0.0-py3.10.egg-info
+[2.460s] running install_scripts
+[2.506s] Installing turtle_spawner_node script to /home/ny/ros2_ws/install/turtle_spawner/lib/turtle_spawner
+[2.509s] writing list of installed files to '/home/ny/ros2_ws/build/turtle_spawner/install.log'
+[2.579s] Invoked command in '/home/ny/ros2_ws/src/turtle_spawner' returned '0': PYTHONPATH=/home/ny/ros2_ws/build/turtle_spawner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ny/ros2_ws/install/turtle_spawner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_spawner build --build-base /home/ny/ros2_ws/build/turtle_spawner/build install --record /home/ny/ros2_ws/build/turtle_spawner/install.log --single-version-externally-managed install_data

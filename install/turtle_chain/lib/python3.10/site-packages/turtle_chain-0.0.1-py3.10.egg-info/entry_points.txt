@@ -1,0 +1,3 @@
+[console_scripts]
+chain_manager = turtle_chain.chain_manager:main
+
