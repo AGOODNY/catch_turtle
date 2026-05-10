@@ -4,7 +4,7 @@
 /home/ny/ros2_ws/install/turtle_spawner/lib/python3.10/site-packages/turtle_spawner/__pycache__/__init__.cpython-310.pyc
 /home/ny/ros2_ws/install/turtle_spawner/share/ament_index/resource_index/packages/turtle_spawner
 /home/ny/ros2_ws/install/turtle_spawner/share/turtle_spawner/package.xml
-/home/ny/ros2_ws/install/turtle_spawner/share/turtle_spawner/launch
+/home/ny/ros2_ws/install/turtle_spawner/share/turtle_spawner/launch/catch_turtle_all.launch.py
 /home/ny/ros2_ws/install/turtle_spawner/lib/python3.10/site-packages/turtle_spawner-0.0.0-py3.10.egg-info/requires.txt
 /home/ny/ros2_ws/install/turtle_spawner/lib/python3.10/site-packages/turtle_spawner-0.0.0-py3.10.egg-info/entry_points.txt
 /home/ny/ros2_ws/install/turtle_spawner/lib/python3.10/site-packages/turtle_spawner-0.0.0-py3.10.egg-info/top_level.txt

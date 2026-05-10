@@ -8,6 +8,7 @@ setup.py
 ../../build/turtle_spawner/turtle_spawner.egg-info/requires.txt
 ../../build/turtle_spawner/turtle_spawner.egg-info/top_level.txt
 ../../build/turtle_spawner/turtle_spawner.egg-info/zip-safe
+launch/catch_turtle_all.launch.py
 resource/turtle_spawner
 test/test_copyright.py
 test/test_flake8.py

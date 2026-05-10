@@ -29,6 +29,7 @@ creating /home/ny/ros2_ws/install/turtle_spawner/share/ament_index/resource_inde
 copying resource/turtle_spawner -> /home/ny/ros2_ws/install/turtle_spawner/share/ament_index/resource_index/packages
 copying package.xml -> /home/ny/ros2_ws/install/turtle_spawner/share/turtle_spawner
 creating /home/ny/ros2_ws/install/turtle_spawner/share/turtle_spawner/launch
+copying launch/catch_turtle_all.launch.py -> /home/ny/ros2_ws/install/turtle_spawner/share/turtle_spawner/launch
 running install_egg_info
 Copying ../../build/turtle_spawner/turtle_spawner.egg-info to /home/ny/ros2_ws/install/turtle_spawner/lib/python3.10/site-packages/turtle_spawner-0.0.0-py3.10.egg-info
 running install_scripts
